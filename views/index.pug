@@ -4,3 +4,13 @@ block content
   h1 Welcome to Artispire
   p This is the homepage of the Art Inspiration Board.
   a(href='/add') Add a new art entry
+
+  if artEntries.length
+    .gallery
+      each art in artEntries
+        .card
+          img(src=art.image, alt=art.title)
+          h3= art.title
+          p= art.description
+  else
+    p No art entries found yet.
