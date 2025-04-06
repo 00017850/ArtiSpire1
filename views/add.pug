@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1 Add New Art Entry
+  form(action="/", method="POST")
+    div
+      label(for="title") Art Title:
+      input(type="text", id="title", name="title")
+    div
+      label(for="description") Description:
+      input(type="text", id="description", name="description")
+    div
+      label(for="image") Image URL:
+      input(type="text", id="image", name="image")
+    button(type="submit") Submit
