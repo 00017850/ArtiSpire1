@@ -1,15 +1,16 @@
 extends layout
 
 block content
-  h1 Add New Art Entry
-  form(action="/", method="POST")
-    div
-      label(for="title") Art Title:
-      input(type="text", id="title", name="title")
-    div
-      label(for="description") Description:
-      input(type="text", id="description", name="description")
-    div
-      label(for="image") Image URL:
-      input(type="text", id="image", name="image")
-    button(type="submit") Submit
+  .add-container
+    h1 Add New Inspiration
+    form(action='/', method='POST')
+      .form-group
+        label(for='title') Title
+        input(type='text', id='title', name='title', required)
+      .form-group
+        label(for='description') Description
+        textarea(id='description', name='description', rows='4', required)
+      .form-group
+        label(for='image') Image URL
+        input(type='url', id='image', name='image', required)
+      button.btn(type='submit') Add Inspiration
