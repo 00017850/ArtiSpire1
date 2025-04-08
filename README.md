@@ -16,6 +16,7 @@ pug – templating engine
 uuid – to generate unique IDs for art entries
 nodemon (dev dependency) – for live reloading during development
 body-parser – for parsing form data
+express-validator-to handle form input validation;
 
 -Application links:
 1) Github repository: https://github.com/00017850/ArtiSpire1
