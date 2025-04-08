@@ -15,7 +15,7 @@ block content
             p= art.description
             .buttons
                 a(href=`/edit/${art.id}`, class='btn edit') Edit
-                a(href=`/delete/${art.id}`, class='btn delete', onclick='return confirmDelete()') Delete
+                a(href=`/api/delete/${art.id}`, class='btn delete', onclick='return confirmDelete()') Delete
 
 
         

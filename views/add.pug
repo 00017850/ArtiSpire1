@@ -3,7 +3,7 @@ extends layout
 block content
   .add-container
     h1 Add New Inspiration
-    form(action='/', method='POST')
+    form(action='/api/', method='POST')
       .form-group
         label(for='title') Title
         input(type='text', id='title', name='title', required)

@@ -3,8 +3,9 @@ extends layout
 block content
   .add-container
     h1 ReTouch your Art Inspiration
-    form(action=`/edit/${artEntry.id}`, method='POST')
+    form(action=`/api/edit`, method='POST')
       .form-group
+        input(type='hidden', name='id', value=artEntry.id)
         label(for='title') Title
         input(type='text', id='title', name='title', value=artEntry.title, required)
 
