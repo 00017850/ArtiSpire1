@@ -30,7 +30,7 @@ body {
   padding: 30px 15px;
 }
 
-/* Pinterest-style grid layout */
+
 ul {
   display: flex;
   flex-direction: row;
@@ -39,7 +39,6 @@ ul {
 
 }
 
-/* Each card/item */
 .card {
   background: #fff;
   padding: 15px;
@@ -85,7 +84,7 @@ ul {
 .btn {
   display: inline-block;
   padding: 12px 20px;
-  background-color: #8751ed;  /* Green color */
+  background-color: #8751ed;  
   color: white;
   font-size: 16px;
   text-align: center;
@@ -95,15 +94,15 @@ ul {
 }
 
 .btn:hover {
-  background-color: #5226a6;  /* Darker green when hovered */
+  background-color: #5226a6;  
 }
 
 .btn.edit {
-  background-color: #56e8de; /* Green for edit */
+  background-color: #56e8de; 
 }
 
 .btn.delete {
-  background-color: #e05ccd; /* Red for delete */
+  background-color: #e05ccd; 
 }
 
 .add-container {

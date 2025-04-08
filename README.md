@@ -20,7 +20,7 @@ express-validator-to handle form input validation;
 
 -Application links:
 1) Github repository: https://github.com/00017850/ArtiSpire1
-2) Hosted:
+2) Hosted: https://colorful-brainy-pair.glitch.me/
 
 -Project structure:
 ARTISPIRE/ -(root of my project)
